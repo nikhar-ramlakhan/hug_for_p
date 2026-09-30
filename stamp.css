@@ -1,0 +1,38 @@
+.stamp {
+  width: 68px;
+  height: 68px;
+  flex: 0 0 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  transform: rotate(8deg);
+  font: 700 14px/1 Georgia, serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.stamp > span {
+  display: block;
+  width: 100%;
+}
+
+.stamp .stamp-arrow {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0.85;
+}
+
+@media (max-width: 650px) {
+  .stamp {
+    width: 58px;
+    height: 58px;
+    flex-basis: 58px;
+    font-size: 12px;
+  }
+
+  .stamp .stamp-arrow {
+    font-size: 14px;
+  }
+}

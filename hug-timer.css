@@ -1,0 +1,12 @@
+#action.stay-timer {
+  background-color: #865469;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+#action.stay-timer:hover {
+  background-color: #75465a;
+}
