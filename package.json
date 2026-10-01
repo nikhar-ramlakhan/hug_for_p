@@ -1,1 +1,1 @@
-{"name":"a-hug-for-prelize","version":"1.0.0","private":true,"description":"A reusable digital hug from Portland to South Africa","scripts":{"dev":"python3 -m http.server 3000","check":"node --check app.js"}}
+{"name":"a-hug-for-prelize","version":"1.0.0","private":true,"description":"A reusable digital hug from Portland to South Africa","scripts":{"dev":"python3 -m http.server 3000","check":"node --check app.js"},"dependencies":{"@vercel/analytics":"^2.0.1"}}
